@@ -38,7 +38,7 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Laravel 5</div>
+                <div class="title">Laravel 5 - {{ parse_url(getenv("CLEARDB_DATABASE_URL"))['host'] }}</div>
             </div>
         </div>
     </body>
