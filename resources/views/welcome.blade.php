@@ -38,8 +38,7 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Meu nome é  e eu chupo uma rola</div>
-                <h6>esse é o tamanho da rola</h6>
+                <div class="title">Nice2Meet - A hospedagem está online</div>
             </div>
         </div>
     </body>
