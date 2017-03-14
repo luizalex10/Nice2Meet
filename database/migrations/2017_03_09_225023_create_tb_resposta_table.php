@@ -18,7 +18,7 @@ class CreateTbRespostaTable extends Migration
             $table->boolean('ic_resposta_correta');
             
             // Foreign key
-            $table->integer('id_questao')->unsigned(); 
+            $table->integer('id_questao')->unsigned();
             $table->foreign('id_questao')->references('id_questao')->on('tb_questao');
             
             $table->timestamps();
