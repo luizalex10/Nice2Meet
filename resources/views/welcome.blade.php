@@ -38,7 +38,7 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Nice2Meet - A hospedagem está online</div>
+                <div class="title">Nice2Meet - A hospedagem está online, eba!</div>
             </div>
         </div>
     </body>

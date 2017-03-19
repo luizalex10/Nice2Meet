@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('admin.home');
 });
+
+Route::group(['prefix' => 'api'], function () {
+    
+});
