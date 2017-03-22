@@ -1,10 +1,4 @@
-<!-- PAGINATION -->
-    <?php 
-        $totalPages = isset($_POST['total']) ? $_POST['total'] : 100;
-        $currentPage = isset($_POST['currentPage']) ? $_POST['currentPage'] : 50;
-        $showPages = isset($_POST['showPages']) ? $_POST['showPages'] : 5;
-        $dividerPages = floor($showPages/2);
-    ?>
+
     <ul class="pagination flex-grid--wrap col-0 halign-center">
         <?php if($currentPage > 1): ?>
             <li class="pagination__item flex-grid halign-center mg-10--right col-0">
