@@ -8,4 +8,4 @@ DB_PASSWORD=dc94cdaa
 DB_DATABASE_live=heroku_d0c9b568fa9b46e
 DB_USERNAME_live=b1a5fc845589cc
 
-mysql -h us-cdbr-iron-east-04.cleardb.net -u b1a5fc845589cc -p heroku_d0c9b568fa9b46e  
+mysql -h us-cdbr-iron-east-04.cleardb.net -u b1a5fc845589cc -p heroku_d0c9b568fa9b46e   
