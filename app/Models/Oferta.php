@@ -17,4 +17,9 @@ class Oferta extends Model
     {
         return $this->belongsTo('App\Models\Parceiro', 'id_parceiro', 'id_parceiro');
     }
+    
+    public function ofertaPonto()
+    {
+        return $this->hasMany('App\Models\OfertaPonto', 'id_oferta', 'id_oferta');
+    }
 }

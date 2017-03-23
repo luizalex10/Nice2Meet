@@ -17,4 +17,14 @@ class Pontuacao extends Model
     {
         return $this->belongsTo('App\Models\Turista', 'id_turista', 'id_turista');
     }
+    
+    public function cupom()
+    {
+        return $this->hasOne('App\Models\Cupom', 'id_cupom', 'id_cupom');
+    }
+    
+    public function quiz()
+    {
+        return $this->belongsTo('App\Models\Quiz', 'id_quiz', 'id_quiz');
+    }
 }
